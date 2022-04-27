@@ -1,0 +1,32 @@
+{
+  "name": "alendre_psychologist_cleunice_rocha",
+  "version": "1.0.0",
+  "description": "alendre/psychologist cleunice rocha brand",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlendreLopes/alendre_cleunice.git"
+  },
+  "keywords": [
+    "psychologist",
+    "psychology",
+    "psicologa",
+    "psicóloga",
+    "cleunice",
+    "cleunice rocha",
+    "psychologist curitiba",
+    "psicologa curitiba",
+    "psicóloga curitiba",
+    "curitiba psicologa",
+    "curitiba psicóloga"
+  ],
+  "author": "Alendre Lopes <alendre.br@gmail.com> (https://alendre.com.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlendreLopes/alendre_cleunice/issues"
+  },
+  "homepage": "https://github.com/AlendreLopes/alendre_cleunice#readme"
+}
