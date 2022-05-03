@@ -3,6 +3,8 @@ forms
 assets/vendor/php-email-form
 # Files
 changelog.txt
+index_default.html
 inner-page.html
+inner-page_default.html
 README.md
 Readme.txt
