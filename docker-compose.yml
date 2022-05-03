@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: cleunice
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - 9010:80

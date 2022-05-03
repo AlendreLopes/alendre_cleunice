@@ -1,0 +1,34 @@
+{
+    "name": "alendre/alendre_cleunice",
+    "description": "Psicologa Cleunice Rocha",
+    "keywords": ["curitiba", "curitiba psicologa", "psicologa", "psicologa curitiba", "cleunice rocha", "cleunice rocha psicologa"],
+    "homepage": "https://www.psicologa-cleunice-rocha.com.br/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/AlendreLopes/alendre_cleunice/issues?state=open",
+        "source": "https://github.com/AlendreLopes/alendre_cleunice"
+    },
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Alendre Lopes",
+            "email": "alendre.br@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

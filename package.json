@@ -2,7 +2,7 @@
   "name": "alendre_psychologist_cleunice_rocha",
   "version": "1.0.0",
   "description": "alendre/psychologist cleunice rocha brand",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
