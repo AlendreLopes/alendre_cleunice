@@ -39,6 +39,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -50,12 +51,13 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:psicologa.cleunicerocha@gmail.com" target="_blank">PSICOLOGA.CLEUNCEROCHA@GMAIL.COM</a>
-        <i class="bi bi-phone"></i> <a href="https://api.whatsapp.com/send?phone=5541996217222" title="Fale comigo pelo Whats" target="_blank">+55 41 SEU 99621-7222</a>
+        <i class="bi bi-envelope"></i> <a href="mailto:psicologa.cleunicerocha@gmail.com">PSICOLOGA.CLEUNCEROCHA@GMAIL.COM</a>
+        <i class="bi bi-phone"></i> <img src="assets/img/whatsapp.png" alt="Whatsapp" width="18" height="18"> &nbsp; <a href="https://api.whatsapp.com/send?phone=5541996217222" title="Fale comigo pelo Whats" target="_blank">+55 41 SEU 99621-7222</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="https://www.facebook.com/psi.cleunice.rocha/" class="facebook" title="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/psi.cleunice.rocha/" class="instagram" title="Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+        <a href="https://www.facebook.com/psi.cleunice.rocha/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/psi.cleunice.rocha/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
   </div>
@@ -63,18 +65,34 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="#">Cleunice Rocha - Psicóloga</a></h1>
+
+      <h1 class="logo me-auto"><a href="index.html">Cleunice Rocha - Psicóloga</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre a Psicóloga</a></li>
+          <li><a class="nav-link scrollto" href="#youtube">Canal do Youtube</a></li>
+          <li><a class="nav-link scrollto" href="#blog">Últimas do Blog</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Marque uma</span> Consulta</a>
+
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h2>Seja bem-vindo(a) ao ESPAÇO</h2>
+      <h3>Seja bem-vindo(a) ao ESPAÇO</h3>
       <h1>Cleunice Rocha - Psicóloga</h1>
-      <br>
-      <h3><a href="https://cadastro.cfp.org.br/" target="_blank" rel="noopener noreferrer" title="Conselho Regional de Psicologia do Paraná">CRP-08/35972</a></h3>
-      <!-- <a href="#about" class="btn-get-started scrollto">Inicar</a> -->
+      <h3>CRP-08/35972</h3>
+      <a href="#about" class="btn-get-started scrollto">Inicar</a>
     </div>
   </section><!-- End Hero -->
 
@@ -82,6 +100,7 @@
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
+
       <div class="container">
 
         <div class="row">
@@ -100,7 +119,7 @@
                 Na modalidade ONLINE.
               </p>
               <div class="text-center">
-                <a href="https://api.whatsapp.com/send?phone=5541996217222" class="more-btn" target="_blank" title="Mande uma mensagem">Entre em contato pelo Whats <i class="bx bxl-whatsapp"></i></a>
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -136,12 +155,466 @@
       </div>
     </section>
     <!-- End Why Us Section -->
-    
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Sobre a Psicóloga Cleunice Rocha</h2>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+            <a href="https://www.youtube.com/watch?v=PbdwQMfhALA" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>O que é Terapia Cognitivo Comportamental?</h3>
+            <p>
+              A Terapia Cognitivo Comportamental é uma linha de terapia breve que possui a finalidade de alterar padrões de pensamento. Seu modelo é cientificamente comprovado por meio de estudos.
+            </p>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-atom"></i></div>
+              <h4 class="title"><a href="">Terapia Analítico Comportamental é igual ao TCC</a></h4>
+              <p class="description">
+                A Terapia Analítico Comportamental tem como foco a pessoa em seu contexto e, como objetivo, minimizar o sofrimento do paciente, fazendo-o ter outro olhar diante das situações que lhe causam angústia e preocupação. 
+                Somente com base em dados bastante aprofundados é o que psicólogo poderá planejar o tratamento específico para a demanda do paciente...
+              </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="">Processo Terapêutico TCC</a></h4>
+              <p class="description">Através de testes comportamentais (feitos somente por um profissional capacitado), o psicólogo, em um primeiro momento, identificará qual a frequência de pensamentos negativos de seu paciente, e qual a emoção que mais se manifesta diante destes pensamentos, tais como: raiva, tristeza, ansiedade, medo, entre outras...</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="">O que são crenças para a TCC?</a></h4>
+              <p class="description">Sempre que uma pessoa experimenta um estado de humor, existe um pensamento relacionado a ele, por isso, é importante identificar quais são os pensamentos que estão relacionados com suas crenças...</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="youtube" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Vídeos recentes do meu canal no Youtube</h2>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+            <div class="icon-box">
+              
+              <div class="video-box d-flex justify-content-center align-items-stretch position-relative">
+                <a href="https://www.youtube.com/watch?v=FfTyqG3_nrQ" class="glightbox play-btn mb-4"></a>
+              </div>
+
+              <br> <br> 
+              <!-- <div class="icon"><i class="fas fa-heartbeat"></i></div> -->
+              <p>&nbsp;</p>
+              <h4><a href="">Distorções Cognitivas</a></h4>
+              <p>Distorções cognitivas nos atrapalham a interpretar as coisas de maneira equilibrada e racional.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+  
+            <div class="icon-box">
+                <div class="video-box d-flex justify-content-center align-items-stretch position-relative">
+                  <a href="https://www.youtube.com/watch?v=zomu0Spkd0E" class="glightbox play-btn mb-4" target="_blank"></a>
+                </div>
+                <br> <br> 
+                <p>&nbsp;</p>
+                <!-- <div class="icon"><i class="fas fa-pills"></i></div> -->
+              <h4><a href="">Crenças Persistentes</a></h4>
+              <p>Suas crenças captam o que você entende da realidade, mas esse processo está longe de ser perfeito.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+  
+            <div class="icon-box">
+              <div class="video-box d-flex justify-content-center align-items-stretch position-relative">
+                <a href="https://www.youtube.com/watch?v=GyFQj64amhY" class="glightbox play-btn mb-4" target="_blank"></a>
+              </div>
+              <br> <br> 
+              <p>&nbsp;</p>
+              <!-- <div class="icon"><i class="fas fa-wheelchair"></i></div> -->
+              <h4><a href="">O que são Emoções</a></h4>
+              <p>O que são emoções? Para que servem as emoções?</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Agende um consulta online</h2>
+          <p>Insira as suas informações pessoais e escolha uma data para conversarmos</p>
+        </div>
+
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Por favor insira 4 chars no mínimo" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" data-rule="email" data-msg="Informe um e-mail válido" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Seu Celular" data-rule="minlen:4" data-msg="Informe seu Celular" required>
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Escolha uma data" data-rule="minlen:4" data-msg="Iforme a data da consulta" required>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="department" id="department" class="form-select" required>
+                <option value="">Seleciona uma data</option>
+                <option value="Data 1">Data 1</option>
+                <option value="Data 2">Data 2</option>
+                <option value="Data 3">Data 3</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select" required>
+                <option value="">Selecione o App</option>
+                <option value="Meet 1">Meet 1</option>
+                <option value="Zoom 2">Zoom 2</option>
+                <option value="Whats App 3">Whats App 3</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+          </div>
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem (Opicional)"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Carregando</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Seu agenamento foi criado com sucesso. Em breve nos falamos!</div>
+          </div>
+          <div class="text-center"><button type="submit">Agende um consulta</button></div>
+        </form>
+
+      </div>
+    </section>
+    <!-- End Appointment Section -->
+
+    <!-- ======= Doctors Section ======= -->
+    <section id="blog" class="doctors">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Blog</h2>
+          <p>Todos os artigos são revisados pela psicóloga.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/psychology.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Cleunice Rocha</h4>
+                <a href="/blog-cleunice-rocha.html" target="_blank" rel="noopener noreferrer">
+                  <span>Conheça 7 características de pessoas carentes</span>
+                </a>
+                <p>Todas as pessoas têm momentos de carência. Do nada uma vontade de ficar junto de alguém especial</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/psi.cleunice.rocha/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/psi.cleunice.rocha/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/psychology.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Cleunice Rocha</h4>
+                <a href="/blog-cleunice-rocha.html" target="_blank" rel="noopener noreferrer">
+                  <span>Discussão ou abuso verbal: como distinguir</span>
+                </a>
+                <p>Toda agressão é indesejada. Seja ela física ou psicológica. E os psicólogos afirmam...</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/psi.cleunice.rocha/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/psi.cleunice.rocha/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/psychology.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Cleunice Rocha</h4>
+                <a href="/blog-cleunice-rocha.html" target="_blank" rel="noopener noreferrer">
+                  <span>Terapia para família: quando procurar?</span>
+                </a>
+                <p>Seja consanguínea ou não, a família é quase sempre composta pelas conexões mais importantes...</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/psi.cleunice.rocha/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/psi.cleunice.rocha/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/doctors/psychology.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Cleunice Rocha</h4>
+                <a href="/blog-cleunice-rocha.html" target="_blank" rel="noopener noreferrer">
+                  <span>Os 9 tipos de inteligência</span>
+                </a>
+                <p>Você já se pegou pensando por que algo que parece tão complicado para você parece ser tão simples para os outros?</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/psi.cleunice.rocha/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/psi.cleunice.rocha/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Doctors Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contato</h2>
+          <p>Entre em contato enviando-me uma mensgem com a sua dúvida ou sugestão!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Localização:</h4>
+                <p>Curitiba - Paraná</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>E-mail:</h4>
+                <p><a href="mailto:contato@psicologa-cleunice-rocha.com.br">contato@psicologa-cleunice-rocha.com.br</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Me chame/Ligue:</h4>
+                <p> <img src="assets/img/whatsapp.png" alt="Whatsapp" width="18" height="18"> &nbsp; <a href="https://api.whatsapp.com/send?phone=5541996217222" title="Fale comigo pelo Whats" target="_blank">+55 41 SEU 99621-7222</a></p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Carregando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensagem</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
   </main>
   <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Cleunice Rocha <br> Psicóloga</h4>
+            <p>
+              Curitiba <br>
+              Paraná <br>
+              Brasil
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Contato</h4>
+            <p>
+              <strong>Celular:</strong> <br> </b><img src="assets/img/whatsapp.png" alt="Whatsapp" width="18" height="18"> &nbsp; <a href="https://api.whatsapp.com/send?phone=5541996217222" title="Fale comigo pelo Whats" target="_blank">+55 41 SEU 99621-7222</a><br>
+              <strong>E-mail:</strong> <br> <a href="mailto:psicologa.cleunicerocha@gmail.com" target="_blank">PSICOLOGA.CLEUNCEROCHA@GMAIL.COM</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links úteis</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre a Psicóloga</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contato</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#appointement">Marque uma consulta</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-newsletter">
+            <h4>&nbsp;</h4>
+            <p>&nbsp;</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <div class="container d-md-flex py-4">
 
@@ -150,6 +623,10 @@
           &copy; Copyright <strong><span>Cleunice Rocha - Psychologist</span></strong>. Todos os diretos reservados
         </div>
         <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
           Designed by <a href="https://alendre.com.br/">ALENDRE</a>
         </div>
       </div>
@@ -165,7 +642,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <!-- <script src="assets/vendor/purecounter/purecounter.js"></script> -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>

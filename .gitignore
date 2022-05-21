@@ -1,8 +1,12 @@
 # Folders
-forms
-assets/vendor/php-email-form
+forms_free
+css_free
+#assets/vendor/php-email-form
 # Files
+*.scss
 changelog.txt
+index_.html
+index_backup.html
 index_default.html
 inner-page.html
 inner-page_default.html
